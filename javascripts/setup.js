@@ -4,16 +4,19 @@ Setup = {
     var local = "http://localhost:3000/";
     var url   = stage;
 
+    $.ajaxSetup({
+      dataType: "json",
+      beforeSend: function(xhr) {
+        xhr.setRequestHeader("accept", "application/json");
+      }
+    });
+
     $.postJSON = function(path, data) {
       return $.ajax({
         url: url + path,
         type: "POST",
-        dataType: "json",
         data: JSON.stringify(data),
-        contentType: "application/json; charset=UTF-8",
-        beforeSend: function(xhr) {
-          xhr.setRequestHeader("accept", "application/json");
-        }
+        contentType: "application/json; charset=UTF-8"
       });
     }
 
@@ -21,11 +24,7 @@ Setup = {
       return $.ajax({
         url: url + path,
         type: "GET",
-        dataType: "json",
-        contentType: "application/json; charset=UTF-8",
-        beforeSend: function(xhr) {
-          xhr.setRequestHeader("accept", "application/json");
-        }
+        contentType: "application/json; charset=UTF-8"
       });
     };
 
@@ -33,11 +32,7 @@ Setup = {
       return $.ajax({
         url: path,
         type: "GET",
-        dataType: "json",
-        contentType: "application/json; charset=UTF-8",
-        beforeSend: function(xhr) {
-          xhr.setRequestHeader("accept", "application/json");
-        }
+        contentType: "application/json; charset=UTF-8"
       });
     };
   }
