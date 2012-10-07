@@ -4,7 +4,7 @@ var Manifesto = {
 
     Manifesto.fetchSignatories(1);
     Manifesto.translate("en");
-    Manifesto.localeSwitch();
+    Manifesto.switchLocale();
   },
 
   translate: function(lang) {
@@ -101,7 +101,7 @@ var Manifesto = {
     });
   },
 
-  localeSwitch: function() {
+  switchLocale: function() {
     $('a#en, a#zh-cn').on('click', function() {
       Manifesto.translate($(this).attr('id'));
     });
@@ -134,7 +134,7 @@ var Manifesto = {
   toggleHeading: function() {
     $('.heading_title').on('click', function() {
       Transitions.before(function() {
-        $('div#sign, div#reading').hide();
+        $('div#sign, div#reading, div#message').hide();
         $('#signatory-table, #manifesto').show();
 
         Transitions.after(function() {
