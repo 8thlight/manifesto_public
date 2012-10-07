@@ -1,0 +1,13 @@
+{
+  "name":"Name: ",
+  "email":"Email: ",
+  "location":"Location: ",
+  "sign":"Sign",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Your signature must be confirmed.",
+    "a_confirmation_email_has_been_sent_to":"A confirmation email has been sent to ",
+    "your_signature_will_be_complete":".  Your signature will be complete after visiting the url contained in the email."
+  },
+  "hang_on":"Hang on!",
+  "there_were_problems_with_your_signature":"There were problems with your signature."
+}

@@ -1,0 +1,13 @@
+{
+  "name":"姓名：",
+  "email":"电子邮件：",
+  "location":"所在地：",
+  "sign":"签名",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Your signature must be confirmed.",
+    "a_confirmation_email_has_been_sent_to":"A confirmation email has been sent to ",
+    "your_signature_will_be_complete":".  Your signature will be complete after visiting the url contained in the email."
+  },
+  "hang_on":"请稍等",
+  "there_were_problems_with_your_signature":"您的签名有些问题。"
+}
