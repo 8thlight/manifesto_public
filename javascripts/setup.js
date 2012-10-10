@@ -1,8 +1,9 @@
 Setup = {
   init: function() {
     var stage = "http://scmanifesto-stage.herokuapp.com/";
+    var production = "http://manifesto.softwarecraftsmanship.org/";
     var local = "http://localhost:3000/";
-    var url   = stage;
+    var url   = production;
 
     $.ajaxSetup({
       dataType: "json",
