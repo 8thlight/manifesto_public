@@ -4,9 +4,9 @@
   "location":"所在地：",
   "sign":"签名",
   "confirmation":{
-    "your_signature_must_be_confirmed":"Your signature must be confirmed.",
-    "a_confirmation_email_has_been_sent_to":"A confirmation email has been sent to ",
-    "your_signature_will_be_complete":".  Your signature will be complete after visiting the url contained in the email."
+    "your_signature_must_be_confirmed":"您的签名需要被确认",
+    "a_confirmation_email_has_been_sent_to":"一封确认邮件已经被发送到 ",
+    "your_signature_will_be_complete":" 您的签名将在您访问了邮件中所包含的链接之后生效。"
   },
   "hang_on":"请稍等",
   "there_were_problems_with_your_signature":"您的签名有些问题。"
