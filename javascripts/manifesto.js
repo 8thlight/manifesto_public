@@ -41,9 +41,11 @@ var Manifesto = {
 
   signatureFormJSON: function() {
     return {
-      "name": $('#signatory_name').val(),
-      "email": $('#signatory_email').val(),
-      "location": $('#signatory_location').val()
+      "sign": {
+        "name": $('#signatory_name').val(),
+        "email": $('#signatory_email').val(),
+        "location": $('#signatory_location').val()
+      }
     }
   },
 
