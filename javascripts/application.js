@@ -1,5 +1,1 @@
-$(document).ready(function() {
-  Setup.init();
-  Partials.init();
-  Manifesto.init();
-});
+$(document).ready(function(){Setup.init(),Partials.init(),Manifesto.init()});
