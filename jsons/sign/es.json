@@ -1,0 +1,13 @@
+{
+  "name":"Nombre: ",
+  "email":"Correo Electrónico: ",
+  "location":"Ubicación: ",
+  "sign":"Firmar",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Su firma debe ser confirmada.",
+    "a_confirmation_email_has_been_sent_to":"Un correo electrónico de confirmación se ha enviado a ",
+    "your_signature_will_be_complete":". Su firma será completa después de visitar el URL contenido en el correo electrónico."
+  },
+  "hang_on":"¡Espera!",
+  "there_were_problems_with_your_signature":"Hubo problemas con su firma."
+}
