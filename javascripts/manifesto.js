@@ -104,7 +104,7 @@ var Manifesto = {
   },
 
   switchLocale: function() {
-    $('a#en, a#zh-cn a#es').on('click', function() {
+    $('a#en, a#zh-cn, a#es').on('click', function() {
       Manifesto.translate($(this).attr('id'));
     });
   },

@@ -17,7 +17,10 @@ body {
 }
 
 body:lang(en) {
-  font-size: 62.5%;
+  font-family: en;
+}
+
+body:lang(es) {
   font-family: en;
 }
 
@@ -39,12 +42,17 @@ body:lang(zh-cn) {
 }
 
 @font-face {
+	font-family: es;
+  src: local('Georgia'), local('Times New Roman'), local('Times'), local('serif')
+}
+
+@font-face {
   font-family: zh-tw;
   src: local('BiauKai'), local("微軟正黑體");
 }
 
 @font-face {
-	font-family: zh-tw;
+  font-family: zh-tw;
   unicode-range: U+00-024F;
   src: local('Georgia'), local('Times New Roman'), local('Times'), local('serif')
 }
@@ -88,10 +96,10 @@ body:lang(zh-cn) {
 
 #header {
 	background-image: url(../images/header_bg.jpg);
-	height: 186px;
-	width: 670px;
-	padding-top: 214px;
-	padding-left: 59px;
+  height: 186px;
+  width: 670px;
+  padding-top: 214px;
+  padding-left: 59px;
 }
 
 #content_top {
@@ -103,6 +111,7 @@ body:lang(zh-cn) {
 	padding-left: 100px;
 	padding-right: 100px;
 }
+
 .input_container{
 	padding:10px 10px 10px 10px;
 	width:180px;
