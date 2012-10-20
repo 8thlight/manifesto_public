@@ -42,7 +42,7 @@
       "header":"Kata y ejercicios",
       "links":[
         { "name":"Katas", "url":"http://katas.softwarecraftsmanship.org/" },
-        { "name":"Las Katas de Dave Thomas":"http://codekata.pragprog.com/" },
+        { "name":"Las Katas de Dave Thomas", "url":"http://codekata.pragprog.com/" },
         { "name":"El Proyecto del Código Kata", "url":"https://github.com/paulwpagel/codekata" }
       ]
     },
@@ -51,7 +51,7 @@
       "links":[
         { "name":"SCNA", "url":"http://scna.softwarecraftsmanship.org/" },
         { "name":"SNUK", "url":"http://parlezuml.com/softwarecraftsmanship/" },
-        { "name":"El grupo Flickr":"http://www.flickr.com/groups/softwarecraftsmanship/pool/" },
+        { "name":"El grupo Flickr", "url":"http://www.flickr.com/groups/softwarecraftsmanship/pool/" },
         { "name":"La lista de correo Reino Unido", "url":"http://groups.google.co.uk/group/software_craftsmanship" },
         { "name":"La lista de correo de hispanohablantes", "url":"http://groups.google.com/group/artesanos-de-software" }
       ]
