@@ -12,7 +12,7 @@
 <script src='javascripts/manifesto.js' type='text/javascript'></script>
 <script src='javascripts/application.js' type='text/javascript'></script>
 <script id='content-top-template' type='text/template'>
-<a class='heading_title' href='#'>
+<a class='heading_title title-image' href='#'>
   <span class='invisible_headings'>Manifesto for Software Craftsmanship</span>
 </a>
 <h2><%= raising_the_bar %></h2>
@@ -96,7 +96,7 @@
         <%= name %>
       </td>
       <td>
-        <div class='input_container'>
+        <div class='input_container input-image'>
           <input class='large_round' id='signatory_name' name='signatory[name]' size='30' type='text' />
         </div>
       </td>
@@ -106,7 +106,7 @@
         <%= email %>
       </td>
       <td>
-        <div class='input_container'>
+        <div class='input_container input-image'>
           <input class='large_round' id='signatory_email' name='signatory[email]' size='30' type='text' />
         </div>
       </td>
@@ -116,7 +116,7 @@
         <%= location %>
       </td>
       <td>
-        <div class='input_container'>
+        <div class='input_container input-image'>
           <input class='large_round' id='signatory_location' name='signatory[location]' size='30' type='text' />
         </div>
       </td>
@@ -124,8 +124,8 @@
     <tr>
       <td></td>
       <td align='right'>
-        <div class='button'>
-          <div class='button_text' id='sign-button'>
+        <div class='button button-image' id='sign-button'>
+          <div class='button-text'>
             <%= sign %>
           </div>
         </div>
@@ -189,7 +189,7 @@
 <a href='#' id='zh-cn' style='font-family: zh-cn;'>简体中文</a>
 </div>
 <div id='container'>
-<div id='content_top'></div>
+<div class='content_top-image' id='content_top'></div>
 <div id='content'>
 <div id='message'></div>
 <div id='sign'></div>
@@ -197,7 +197,7 @@
 <div id='manifesto'></div>
 <table data-id='1' id='signatory-table'></table>
 </div>
-<div id='footer'></div>
+<div class='footer-image' id='footer'></div>
 </div>
 </body>
 </html>
