@@ -1,0 +1,13 @@
+{
+  "name":"İsim: ",
+  "email":"Eposta: ",
+  "location":"Konum: ",
+  "sign":"İmzala",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"İmzanız onaylanmak zorundadır.",
+    "a_confirmation_email_has_been_sent_to":"Onay epostası ",
+    "your_signature_will_be_complete":"adresine gönderildi.  Epostada yer alan bağlantıyı ziyaret ettikten sonra imzanız tamamlanmış olacaktır"
+  },
+  "hang_on":"Bekleyiniz!",
+  "there_were_problems_with_your_signature":"İmzanızla ilgili bir problem var."
+}

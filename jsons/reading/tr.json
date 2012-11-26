@@ -1,0 +1,60 @@
+{
+  "sections":[
+    {
+      "header":"Genel bilgiler",
+      "links":[
+        { "name":"McBreen's Software Craftsmanship", "url":"http://www.amazon.com/Software-Craftsmanship-Imperative-Pete-McBreen/dp/0201733862" },
+        { "name":"The Pragmatic Programmer", "url":"http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/" },
+        { "name":"The Craftsman by Richard Sennett", "url":"http://www.amazon.com/Craftsman-Prof-Richard-Sennett/dp/0300151195/" },
+        { "name":"Apprenticeship Patterns", "url":"http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/" },
+        { "name":"Apprenticeship Patterns (Online)", "url":"http://apprenticeship-patterns.labs.oreilly.com/" },
+        { "name":"Mastery by George Leonard", "url":"http://www.amazon.com/Mastery-Keys-Success-Long-Term-Fulfillment/dp/0452267560" },
+        { "name":"The Role of Deliberate Practice in the Acquisition of Expert Performance by K. Anders Ericsson et al", "url":"http://projects.ict.usc.edu/itw/gel/EricssonDeliberatePracticePR93.pdf" },
+        { "name":"Self-theories:Their role in Motivation, Personality, and Development by Carol S. Dweck", "url":"http://www.amazon.com/Self-theories-Motivation-Personality-Development-Psychology/dp/1841690244/" },
+        { "name":"Better:A Surgeon's Notes on Performance by Atul Gawande", "url":"http://www.amazon.com/Better-Surgeons-Performance-Atul-Gawande/dp/0312427654/" },
+        { "name":"Unskilled and Unaware of it:how difficulties in recognizing one's own incompetence lead to inflated self-assessments by Justin Kruger and David Dunning", "url":"http://www.jerwood-no.org.uk/pdf/Dunning%20Kruger.pdf" },
+        { "name":"The Dunning-Kruger effect", "url":"http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect" },
+        { "name":"What the Dunning-Kruger effect is and isn't", "url":"http://www.talyarkoni.org/blog/2010/07/07/what-the-dunning-kruger-effect-is-and-isnt/" },
+        { "name":"The Creative Habit by Twyla Tharp", "url":"http://www.amazon.com/Creative-Habit-Learn-Use-Life/dp/0743235274/" },
+        { "name":"The Wikipedia page on Software Craftsmanship", "url":"http://en.wikipedia.org/wiki/Software_craftsmanship" },
+        { "name":"Wikipedia on Craft", "url":"http://en.wikipedia.org/wiki/Craft" }
+      ]
+    },
+    {
+      "header":"Düşücelerinizi besleyen fikirler",
+      "links":[
+        { "name":"Software Craftsmanship:More than just a manifesto", "url":"http://blog.oshineye.com/2011/01/software-craftsmanship-more-than-just.html" },
+        { "name":"A Nostalgia for Guilds And Other Dangerous Ideas", "url":"http://ravimohan.blogspot.com/2005/09/nostalgia-for-guilds-and-other.html" },
+        { "name":"Software Craftsmanship - can we just get over it?", "url":"http://www.davethehat.com/dh/blog/2009/05/25/software-craftsmanship-can-we-just-get-over-it/" },
+        { "name":"Am I a Master?", "url":"http://jd-syntropy.blogspot.com/2009/01/am-i-master.html" },
+        { "name":"Is Craftsmanship All About Code?", "url":"http://jd-syntropy.blogspot.com/2008/12/is-craftsmanship-all-about-code.html" },
+        { "name":"What's all this nonsense about Katas?", "url":"http://blog.objectmentor.com/articles/2009/11/21/whats-all-this-nonsense-about-katas" },
+        { "name":"The Ultimate Code Kata", "url":"http://www.codinghorror.com/blog/2008/06/the-ultimate-code-kata.html" },
+        { "name":"What Is Software Craftsmanship?", "url":"http://apprenticeship-patterns.labs.oreilly.com/ch01.html#I_sect11_d1e584" },
+        { "name":"A Call for Apprenticeship", "url":"http://redsquirrel.com/cgi-bin/dave/2007/08/22#a.call.for.apprenticeship" },
+        { "name":"The Puppet Master and the Apprentice", "url":"http://www.walrusmagazine.com/articles/2010.04-theatre-the-puppet-master-and-the-apprentice/2/" },
+        { "name":"Be a Mentor ", "url":"http://danweinreb.org/blog/be-a-mentor" },
+        { "name":"Teach Yourself Programming in Ten Years", "url":"http://norvig.com/21-days.html" },
+        { "name":"Pragmatic thinking and learning", "url":"http://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning" }
+      ]
+    },
+    {
+      "header":"Katalar ve egzersizler",
+      "links":[
+        { "name":"Katas", "url":"http://katas.softwarecraftsmanship.org/" },
+        { "name":"Dave Thomas's Katas'", "url":"http://codekata.pragprog.com/" },
+        { "name":"The Code Kata Project", "url":"https://github.com/paulwpagel/codekata" }
+      ]
+    },
+    {
+      "header":"Konferanslar ve topluluk",
+      "links":[
+        { "name":"SCNA", "url":"http://scna.softwarecraftsmanship.org/" },
+        { "name":"SNUK", "url":"http://parlezuml.com/softwarecraftsmanship/" },
+        { "name":"The Flickr group", "url":"http://www.flickr.com/groups/softwarecraftsmanship/pool/" },
+        { "name":"The UK mailing list", "url":"http://groups.google.co.uk/group/software_craftsmanship" },
+        { "name":"The Spanish speaking mailing list", "url":"http://groups.google.com/group/artesanos-de-software" }
+      ]
+    }
+  ]
+}
