@@ -1,0 +1,13 @@
+{
+  "name":"Name: ",
+  "email":"E-Mail: ",
+  "location":"Ort: ",
+  "sign":"Unterzeichnen",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Ihre Unterschrift muss bestätigt werden.",
+    "a_confirmation_email_has_been_sent_to":"Eine Bestätigungsmail wurde an ",
+    "your_signature_will_be_complete":"gesandt.  Wenn Sie dem in der E-Mail enthaltenen Link gefolgt sind, wird Ihre Unterzeichnung vollständig sein."
+  },
+  "hang_on":"Einen Moment bitte!",
+  "there_were_problems_with_your_signature":"Es gab Probleme mit Ihrer Unterschrift."
+}
