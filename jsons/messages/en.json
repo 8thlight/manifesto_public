@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"Signatory not found",
+  "signatory_already_confirmed":", you have already signed the Manifesto for Software Craftsmanship.",
+  "signatory_not_confirmed":", do you wish to sign the Manifesto for Software Craftsmanship?",
+  "remove_me":"Remove Me",
+  "sign":"Sign",
+  "decline":"Decline",
+  "something_went_wrong":"We're sorry, but something went wrong",
+  "you_are_now_a_signatory":"You are now a signatory of the Manifesto for Software Craftsmanship",
+  "view_all_signatories":"View all signatories",
+  "you_have_declined":"You have declined to sign the manifesto."
+}

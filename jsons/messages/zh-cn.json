@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"无法找到签名人",
+  "signatory_already_confirmed":"，您已经签署了软件工艺宣言。",
+  "signatory_not_confirmed":"，您愿意签署软件工艺宣言吗？",
+  "remove_me":"Remove Me",
+  "sign":"签名",
+  "decline":"拒绝",
+  "something_went_wrong":"对不起，出现错误了",
+  "you_are_now_a_signatory":"您现在是软件工艺宣言的签署人之一了",
+  "view_all_signatories":"查看所有签名者",
+  "you_have_declined":"您拒绝签署宣言"
+}

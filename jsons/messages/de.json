@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"Unterzeichner nicht gefunden",
+  "signatory_already_confirmed":", Sie haben das Manifest für Software-Handwerkskunst bereits unterzeichnet.",
+  "signatory_not_confirmed":", möchten Sie das Manifest für Software-Handwerkskunst unterzeichnen?",
+  "remove_me":"Remove Me",
+  "sign":"Unterzeichnen",
+  "decline":"Ablehnen",
+  "something_went_wrong":"Es tut uns leid, irgendetwas ist schief gegangen",
+  "you_are_now_a_signatory":"Sie gehören nun zu den Unterzeichnern des Manifests für Software-Handwerkskunst",
+  "view_all_signatories":"Alle Unterzeichnenden ansehen",
+  "you_have_declined":"Sie haben der Unterzeichnung des Manifests abgelehnt."
+}

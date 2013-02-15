@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"İmza sahibi bulunamadı",
+  "signatory_already_confirmed":", Yazılım Ustalığı Manifetosunu zaten imzaladınız.",
+  "signatory_not_confirmed":", Yazılım Ustalığı Manifestosunu imzalamak ister misiniz?",
+  "remove_me":"Remove Me",
+  "sign":"İmzala",
+  "decline":"Reddet",
+  "something_went_wrong":"Bir problem oluştu, üzgünüz",
+  "you_are_now_a_signatory":"Şu anda Yazılım Ustalığı Manifestosunu imzaladınız",
+  "view_all_signatories":"İmzalayanları gör",
+  "you_have_declined":"Manifestoyu imzalamayı reddettiniz."
+}
