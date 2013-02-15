@@ -1,0 +1,13 @@
+{
+  "name":"Nom: ",
+  "email":"Courriel: ",
+  "location":"Lieu: ",
+  "sign":"Signer",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Votre signature doit être confirmée.",
+    "a_confirmation_email_has_been_sent_to":"Un courriel de confirmation a été envoyé à ",
+    "your_signature_will_be_complete":".  Votre signature sera effective après avoir visité le l'adresse URL contenue dans le courriel."
+  },
+  "hang_on":"Attends !",
+  "there_were_problems_with_your_signature":"Il y a eu un problème lors de votre signature."
+}

@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"Signataire non trouvé",
+  "signatory_already_confirmed":", vous avez déjà signé le Manifeste pour l'Artisanat Logiciel.",
+  "signatory_not_confirmed":", souhaitez-vous signer le Manifeste pour l'Artisanat Logiciel ?",
+  "remove_me":"Me Retirer",
+  "sign":"Signer",
+  "decline":"Refuser",
+  "something_went_wrong":"Nous sommes désolés, mais il y a eu un problème",
+  "you_are_now_a_signatory":"Vous êtes désormais un signataire du Manifeste pour l'Artisanat Logiciel.",
+  "view_all_signatories":"Voir tous les signataires",
+  "you_have_declined":"Vous avez refusé de signer le Manifeste."
+}
