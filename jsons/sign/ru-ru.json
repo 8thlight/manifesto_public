@@ -1,0 +1,13 @@
+{
+  "name":"Имя: ",
+  "email":"E-mail: ",
+  "location":"местоположение: ",
+  "sign":"Подписать",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Ваша подпись должна быть подтверждена.",
+    "a_confirmation_email_has_been_sent_to":"Письмо для подтверждения будет отослано по адресу ",
+    "your_signature_will_be_complete":".  Ваша подпись станет действительной после того, как вы перейдете по URL, который указан в письме."
+  },
+  "hang_on":"Обождите!",
+  "there_were_problems_with_your_signature":"С Вашей подписью есть проблемы."
+}
