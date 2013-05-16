@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"Không tìm thấy người ký",
+  "signatory_already_confirmed":", bạn đã ký vào Tuyên ngôn Nghề thủ công Phần mềm.",
+  "signatory_not_confirmed":", bạn có muốn ký vào Tuyên ngôn Nghề thủ công Phần mềm?",
+  "remove_me":"Xóa bỏ Tôi",
+  "sign":"Ký",
+  "decline":"Từ chối",
+  "something_went_wrong":"Chúng tôi xin lỗi, nhưng đã có một vài trục trặc",
+  "you_are_now_a_signatory":"Giờ bạn đã là người ký vào Tuyên ngôn Nghề thủ công Phần mềm",
+  "view_all_signatories":"Xem tất cả người ký",
+  "you_have_declined":"Bạn đã từ chối ký vào Tuyên ngôn."
+}
