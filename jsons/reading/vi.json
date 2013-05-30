@@ -53,7 +53,8 @@
         { "name":"SNUK", "url":"http://parlezuml.com/softwarecraftsmanship/" },
         { "name":"The Flickr group", "url":"http://www.flickr.com/groups/softwarecraftsmanship/pool/" },
         { "name":"The UK mailing list", "url":"http://groups.google.co.uk/group/software_craftsmanship" },
-        { "name":"The Spanish speaking mailing list", "url":"http://groups.google.com/group/artesanos-de-software" }
+        { "name":"The Spanish speaking mailing list", "url":"http://groups.google.com/group/artesanos-de-software" },
+        { "name":"Nghề thủ công Phần mềm", "url":"https://www.facebook.com/SoftwareCraftsmanshipVN" }
       ]
     }
   ]
