@@ -1,0 +1,13 @@
+{
+  "name":"Tên: ",
+  "email":"Thư điện tử: ",
+  "location":"Địa điểm: ",
+  "sign":"Ký",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Chữ ký của bạn phải được xác nhận.",
+    "a_confirmation_email_has_been_sent_to":"Thư điện tử xác nhận đã được gửi tới ",
+    "your_signature_will_be_complete":".  Bạn sẽ hoàn thành việc ký sau khi vào địa chỉ ở trong thư điện tử."
+  },
+  "hang_on":"Chú ý!",
+  "there_were_problems_with_your_signature":"Có vấn đề với chữ ký của bạn."
+}
