@@ -1,6 +1,6 @@
 Setup = {
   init: function() {
-    var stage = "http://scmanifesto-stage.herokuapp.com/";
+    var stage = "http://scmanifesto-staging.8thlight.com/";
     var production = "http://manifesto.softwarecraftsmanship.org/";
     var local = "http://localhost:3000/";
     var url   = production;
