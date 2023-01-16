@@ -1,12 +1,12 @@
 {
   "signatory_not_found":"Firmatario non trovato",
-  "signatory_already_confirmed":", avete già firmato il Manifesto per l'Artigianato del Software.",
-  "signatory_not_confirmed":", desiderate firmare il Manifesto per l'Artigianato del Software?",
+  "signatory_already_confirmed":", hai già firmato il Manifesto per l'Artigianato del Software.",
+  "signatory_not_confirmed":", desideri firmare il Manifesto per l'Artigianato del Software?",
   "remove_me":"Rimuovimi",
   "sign":"Firma",
   "decline":"Declina",
   "something_went_wrong":"Siamo spiacenti, qualcosa è andato storto",
-  "you_are_now_a_signatory":"Ora siete un firmatario del Manifesto per l'Artigianato del Software.",
+  "you_are_now_a_signatory":"Ora sei un firmatario del Manifesto per l'Artigianato del Software.",
   "view_all_signatories":"Visualizza tutti i firmatari",
-  "you_have_declined":"Avete rifiutato di firmare il manifesto."
+  "you_have_declined":"Hai rifiutato di firmare il manifesto."
 }
