@@ -1,13 +1,13 @@
 {
-  "name":"Ім`я: ",
-  "email":"Імейл: ",
-  "location":"Локація: ",
+  "name":"Ім'я: ",
+  "email":"Пошта: ",
+  "location":"Місце: ",
   "sign":"Підписати",
   "confirmation":{
-    "your_signature_must_be_confirmed":"Треба підтвердити ваш підпис.",
-    "a_confirmation_email_has_been_sent_to":"Лист з посиланням на підтвердження було вислано на ",
-    "your_signature_will_be_complete":".  Ваш підпис буде підверджено після того як ви перейдете за посиланням у імейлі."
+    "your_signature_must_be_confirmed":"Необхідно підтвердити Ваш підпис.",
+    "a_confirmation_email_has_been_sent_to":"Повідомлення з посиланням  було надіслано на ",
+    "your_signature_will_be_complete":".  Ваш підпис буде підверджено після того, як Ви перейдете за посиланням у повідомленні."
   },
-  "hang_on":"Секунду!",
-  "there_were_problems_with_your_signature":"З вашим підписом виникла проблема."
+  "hang_on":"Зачекайте!",
+  "there_were_problems_with_your_signature":"З Вашим підписом виникла проблема."
 }
