@@ -38,6 +38,9 @@ body:lang(vi) {
 body:lang(it) {
   font-family: it;
 }
+body:lang(ua) {
+  font-family: ua;
+}
 
 @font-face {
   font-family: ru-ru;
@@ -109,6 +112,11 @@ body:lang(it) {
 
 @font-face {
   font-family: it;
+  src: local("Georgia"), local("Times New Roman"), local("Times"), local("serif");
+}
+
+@font-face {
+  font-family: ua;
   src: local("Georgia"), local("Times New Roman"), local("Times"), local("serif");
 }
 

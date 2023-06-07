@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"Підпис не знайдено",
+  "signatory_already_confirmed":", Ви вже підписали Маніфест про майстерність створення програмного забезпечення (Manifesto for Software Craftsmanship).",
+  "signatory_not_confirmed":", чи бажаєте Ви підписати Маніфест про майстерність створення програмного забезпечення (Manifesto for Software Craftsmanship)?",
+  "remove_me":"Прибрати мене",
+  "sign":"Підписати",
+  "decline":"Скасувати",
+  "something_went_wrong":"Вибачаємось, але щось пішло не так",
+  "you_are_now_a_signatory":"Відтепер Ви підписант Маніфесту про майстерність створення програмного забезпечення (Manifesto for Software Craftsmanship)",
+  "view_all_signatories":"Подивитися всіх підписантів",
+  "you_have_declined":"Ви відмовились підписати маніфест."
+}
