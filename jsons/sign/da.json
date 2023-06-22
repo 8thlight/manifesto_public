@@ -1,0 +1,13 @@
+{
+  "name":"Navn: ",
+  "email":"Email: ",
+  "location":"Sted: ",
+  "sign":"Underskriv",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Din underskrift skal valideres.",
+    "a_confirmation_email_has_been_sent_to":"Der er blevet sendt en bekræftelsesmail til ",
+    "your_signature_will_be_complete":".  Din underskrift anses for gyldig når du har besøgt url'en indeholdt i emailen."
+  },
+  "hang_on":"Et øjeblik..",
+  "there_were_problems_with_your_signature":"Der var problemer med din underskrift."
+}

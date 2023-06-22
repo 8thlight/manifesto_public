@@ -1,0 +1,13 @@
+{
+  "name":"الاسم ",
+  "email":"البريد الالكتروني ",
+  "location":"الموقع ",
+  "sign":"توقيع",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"يجب تأكيد توقيعك",
+    "a_confirmation_email_has_been_sent_to":"لقد تم ارسال رسالة تأكيد إلى",
+    "your_signature_will_be_complete":" سيتم تأكيد توقيعك بعد زيارة الموقع على الرابط في الرسالة"
+  },
+  "hang_on":"مهلا!",
+  "there_were_problems_with_your_signature":"هنالك مشاكل في توقيعك"
+}
