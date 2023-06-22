@@ -4,6 +4,9 @@ body {
   font-size: 62.5%;
   background-color: #000000;
 }
+body:lang(da) {
+  font-family: da;
+}
 body:lang(de) {
   font-size: 50.0%;
   font-family: de;
@@ -41,6 +44,34 @@ body:lang(it) {
 body:lang(ua) {
   font-family: ua;
 }
+body:lang(pt-br) {
+  font-family: pt-br;
+}
+
+body:lang(ar) {
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+}
+
+body:lang(ar) .left {
+  text-align: right;
+}
+
+body:lang(ar) .right {
+  text-align: right;
+}
+
+body:lang(ar) p.text {
+  text-align: right;
+}
+
+body:lang(ar) table.form_fields {
+  text-align: right;
+}
+
+body:lang(ar) #signature-form-errors {
+  text-align: right;
+}
 
 @font-face {
   font-family: ru-ru;
@@ -49,6 +80,11 @@ body:lang(ua) {
 
 @font-face {
   font-family: fr-fr;
+  src: local("Georgia"), local("Times New Roman"), local("Times"), local("serif");
+}
+
+@font-face {
+  font-family: da;
   src: local("Georgia"), local("Times New Roman"), local("Times"), local("serif");
 }
 
@@ -111,6 +147,11 @@ body:lang(ua) {
 }
 
 @font-face {
+  font-family: pt-br;
+  src: local("Georgia"), local("Times New Roman"), local("Times"), local("serif");
+}
+
+@font-face {
   font-family: it;
   src: local("Georgia"), local("Times New Roman"), local("Times"), local("serif");
 }
@@ -119,7 +160,6 @@ body:lang(ua) {
   font-family: ua;
   src: local("Georgia"), local("Times New Roman"), local("Times"), local("serif");
 }
-
 .button-image {
   background: url(../images/application.png) 0 0px;
 }
@@ -154,17 +194,17 @@ body:lang(ua) {
 }
 
 /*********************************** Site Structure ******************************/
+
 html {
   overflow-y: scroll;
 }
 
 .translations {
+  direction: ltr;
   margin: 10px auto;
   font-size: 12px;
-  width: 553px;
+  width: 100%;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 #container {
@@ -207,6 +247,23 @@ input:focus {
   padding-right: 60px;
 }
 
+.signatory-header {
+  margin: 6em 0 3em 0;
+  border-top: 1px solid rgb(141,100,60);
+  padding-top: 3em;
+}
+
+.signatory-header h1 {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.signatory-header div {
+  display: inline-block;
+  vertical-align: bottom;
+  float: right;
+}
+
 #footer {
   background-repeat: no-repeat;
   height: 211px;
@@ -226,20 +283,21 @@ p.text {
   font-size: 14pt;
   text-align: left;
   padding-left: 15px;
+  padding-right: 15px;
   width: 535px;
 }
 p.text_center {
   font-size: 14pt;
   text-align: center;
-  padding-left: 15px;
   width: 550px;
+  margin: 0 auto;
 }
 p.big_letter:first-letter {
   font-family: Georgia,;
   font-size: 50px;
   font-weight: normal;
   line-height: 80%;
-  letter-spacing: -6px;
+  letter-spacing: 3px;
   padding: 0.20em;
 }
 
@@ -249,6 +307,7 @@ p.big_letter:first-letter {
 }
 .center table {
   padding-left: 150px;
+  padding-right: 150px;
 }
 
 p.notice {
@@ -258,6 +317,7 @@ p.notice {
 
 .left {
   padding-left: 30px;
+  padding-right: 30px;
   font-size: 14pt;
   text-align: left;
   width: 580px;
@@ -265,6 +325,7 @@ p.notice {
 
 .right {
   padding-left: 106px;
+  padding-right: 106px;
   font-size: 14pt;
   text-align: left;
   padding-bottom: 20px;
@@ -292,11 +353,59 @@ table.form_fields td.button-cell {
   font-weight: bold;
 }
 
+#signatory-table {
+  width: 38rem;
+  direction: ltr;
+}
+
 #signatory-table td {
   float: left;
   width: 190px;
   padding-left: 10px;
   padding-top: 6px;
+}
+
+.search-result td {
+  text-align: right;
+}
+
+#signatory-table td.signatory-name {
+  text-align: left;
+}
+
+#signatory-table tr.search-result {
+  width: 100%;
+}
+
+#signatory-table tr.search-result td {
+  font-size: 14px;
+  float: none;
+  width: 0;
+}
+
+#search-button {
+  background-color: #6D3D19;
+  padding: 0.5rem;
+  -moz-box-shadow: 0 0 3px #6D3D19;
+  -webkit-box-shadow: 0 0 3px #6D3D19;
+  box-shadow: 0 0 3px #6D3D19;
+  border-radius: 4px;
+}
+
+#clear-button {
+  padding: 0.4rem;
+  position: absolute;
+  margin-left: 140px;
+  font-size: 1rem;
+}
+
+#search-name {
+  padding-right: 26px;
+  padding-left: 6px;
+  height: 1.75rem;
+  width: 135px;
+  font-size: 16px;
+  border: none;
 }
 
 .errors {
@@ -339,6 +448,15 @@ a:active {
   color: #FFFFFF;
 }
 
+#view, #reading, #metrics {
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+
+#view, #reading {
+  margin-right: 1em;
+}
+
 /***************************  Navigation **********************/
 .button-text {
   margin-top: -6px;
@@ -377,7 +495,7 @@ a:active {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c3b5a5', endColorstr='#a19383',GradientType=0 );
 }
 
-.button_link:link {
+.button_link:link, #sign {
   color: black;
   text-decoration: none;
 }
@@ -413,4 +531,36 @@ a:active {
 .further_reading_header {
   padding-top: 20px;
   padding-bottom: 5px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?9fxkf6');
+  src:url('fonts/icomoon.eot?#iefix9fxkf6') format('embedded-opentype'),
+    url('fonts/icomoon.woff?9fxkf6') format('woff'),
+    url('fonts/icomoon.ttf?9fxkf6') format('truetype'),
+    url('fonts/icomoon.svg?9fxkf6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e600";
+}
+
+.icon-remove-sign:before {
+  content: "\e601";
 }
