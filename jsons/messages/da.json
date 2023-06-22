@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"Underskriver blev ikke fundet",
+  "signatory_already_confirmed":", du har allerede underskrevet manifestet for software håndværk.",
+  "signatory_not_confirmed":", vil du underskrive manifestet for software håndværk?",
+  "remove_me":"Fjern mig",
+  "sign":"Underskriv",
+  "decline":"Afslå",
+  "something_went_wrong":"Vi er kede af det, men noget gik galt",
+  "you_are_now_a_signatory":"Du har nu underskrevet manifestet for software håndværk",
+  "view_all_signatories":"Se alle underskrifter",
+  "you_have_declined":"Du har afslået at underskrive manifestet."
+}

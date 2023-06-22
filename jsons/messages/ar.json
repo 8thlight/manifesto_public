@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"لم يعثر على الموقِّع",
+  "signatory_already_confirmed":"لقد وقعت على ميثاق محترفي البرمجيات في وقت سابق",
+  "signatory_not_confirmed":"هل ترغب بالتوقيع على ميثاق محترفي البرمجيات؟",
+  "remove_me":"ازالة اسمي",
+  "sign":"توقيع",
+  "decline":"رفض",
+  "something_went_wrong":"نأسف، هناك خطأ ما حصل",
+  "you_are_now_a_signatory":"أنت الآن من الموقعين على ميثاق محترفي البرمجيات",
+  "view_all_signatories":"عرض جميع الموقعين",
+  "you_have_declined":"لقد رفضت التوقيع على الميثاق"
+}
