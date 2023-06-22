@@ -1,7 +1,7 @@
 {
   "sections":[
     {
-      "header":"Genel bilgiler",
+      "header":"مصادر مرجعية",
       "links":[
         { "name":"McBreen's Software Craftsmanship", "url":"http://www.amazon.com/Software-Craftsmanship-Imperative-Pete-McBreen/dp/0201733862" },
         { "name":"The Pragmatic Programmer", "url":"http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/" },
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "header":"Düşücelerinizi besleyen fikirler",
+      "header":"غذاء الفكر",
       "links":[
         { "name":"Software Craftsmanship:More than just a manifesto", "url":"http://blog.oshineye.com/2011/01/software-craftsmanship-more-than-just.html" },
         { "name":"A Nostalgia for Guilds And Other Dangerous Ideas", "url":"http://ravimohan.blogspot.com/2005/09/nostalgia-for-guilds-and-other.html" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "header":"Katalar ve egzersizler",
+      "header":"تمارين وتدريبات",
       "links":[
         { "name":"Katas", "url":"http://katas.softwarecraftsmanship.org/" },
         { "name":"Dave Thomas's Katas'", "url":"http://codekata.pragprog.com/" },
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "header":"Konferanslar ve topluluk",
+      "header":"المجتمع والمؤتمرات",
       "links":[
         { "name":"SCNA", "url":"http://scna.softwarecraftsmanship.org/" },
         { "name":"SNUK", "url":"http://parlezuml.com/softwarecraftsmanship/" },
