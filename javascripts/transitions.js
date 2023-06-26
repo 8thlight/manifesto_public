@@ -16,15 +16,15 @@ Transitions = {
   },
 
   infiniteScroll: function(callback) {
-    $(window).unbind('scroll');
+    $(window).off('scroll');
     $(window).on('scroll', _.throttle(function() {
-      if ($(this).scrollTop() + $(this).height() * 2 > $(document).height()) {
+      if ($(this).scrollTop() >= $(document).height() - $(window).height() - 10) {
         callback.call();
       }
     }, 500));
   },
 
   infiniteUnscroll: function() {
-    $(window).unbind('scroll');
+    $(window).off('scroll');
   }
 }

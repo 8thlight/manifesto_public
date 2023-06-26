@@ -1,0 +1,13 @@
+{
+  "name":"Nome: ",
+  "email":"Email: ",
+  "location":"Local: ",
+  "sign":"Assinatura",
+  "confirmation":{
+    "your_signature_must_be_confirmed":"Sua assinatura presisa ser confirnada.",
+    "a_confirmation_email_has_been_sent_to":"Uma mensagem de confirmação foi enviada para ",
+    "your_signature_will_be_complete":".  Sua assinatura estará confirmada após uma visita ao link contido nessa mensagem."
+  },
+  "hang_on":"Um momento!",
+  "there_were_problems_with_your_signature":"Há problemas com sua assinatura."
+}

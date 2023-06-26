@@ -1,12 +1,12 @@
 {
-  "signatory_not_found":"Signatory not found",
-  "signatory_already_confirmed":", you have already signed the Manifesto for Software Craftsmanship.",
-  "signatory_not_confirmed":", do you wish to sign the Manifesto for Software Craftsmanship?",
-  "remove_me":"Remove Me",
-  "sign":"Sign",
-  "decline":"Decline",
-  "something_went_wrong":"We're sorry, but something went wrong",
-  "you_are_now_a_signatory":"You are now a signatory of the Manifesto for Software Craftsmanship",
-  "view_all_signatories":"View all signatories",
-  "you_have_declined":"You have declined to sign the manifesto."
+  "signatory_not_found":"Firmante no encontrado",
+  "signatory_already_confirmed":", ya has firmado el Manifesto de la Artesanía del Software.",
+  "signatory_not_confirmed":", ¿deseas firmar el Manifesto de la Artesanía del Software?",
+  "remove_me":"Borrarme",
+  "sign":"Firmar",
+  "decline":"Rechazar",
+  "something_went_wrong":"Lo sentimos pero algo ha ido mal",
+  "you_are_now_a_signatory":"Ahora eres un firmante del Manifesto de la Artesanía del Software",
+  "view_all_signatories":"Ver todos los firmantes",
+  "you_have_declined":"Has rechazado firmar el manifesto."
 }

@@ -1,0 +1,12 @@
+{
+  "signatory_not_found":"Assinante não encontrado",
+  "signatory_already_confirmed":"- você já é um assinante do manifesto.",
+  "signatory_not_confirmed":", você quer assinar o Manifesto para a Artesania de Software?",
+  "remove_me":"Tire me daqui",
+  "sign":"Assinatura",
+  "decline":"Não, obrigado",
+  "something_went_wrong":"Desculpe! Algo deu errado...",
+  "you_are_now_a_signatory":"- Você é, agora, um assinante do Manifesto pela Artesania de Software",
+  "view_all_signatories":"Veja todos os assinantes",
+  "you_have_declined":"Você decidiu não assinar o Manifesto."
+}

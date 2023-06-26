@@ -29,7 +29,7 @@ var Manifesto = {
 
             $('div#message').html(Partials.renderSignatureConfirm(context));
 
-            $('a#confirm').click(function(event) {
+            $('a#confirm').on('click', function(event) {
               event.preventDefault();
               $.postJSON('sign/confirm', {'id': id}).done(function(response) {
                 if (response.success) {
@@ -46,7 +46,7 @@ var Manifesto = {
               });
             });
 
-            $('a#decline').click(function(event) {
+            $('a#decline').on('click', function(event) {
               event.preventDefault();
               $.postJSON('sign/decline', {'id': id}).done(function(response) {
                 if (response.success) {
@@ -89,7 +89,7 @@ var Manifesto = {
 
               $('div#message').html(Partials.renderSignatureRemove(context));
 
-              $('a#decline').click(function(event) {
+              $('a#decline').on('click', function(event) {
                 event.preventDefault();
                 $.postJSON('sign/decline', {'id': id}).done(function(response) {
                   if (response.success) {
@@ -116,6 +116,7 @@ var Manifesto = {
 
   translate: function(lang) {
     Transitions.before(function() {
+      Manifesto.clearSignatories();
       $('div#sign, div#reading, div#message').hide();
 
       $.fetchStaticJSON("jsons/reading/" + lang + ".json").done(function(response) {
@@ -137,6 +138,7 @@ var Manifesto = {
 
         Transitions.after(function() {
           Manifesto.bindSignButton(lang);
+          Manifesto.bindSearchSignatories();
           Transitions.infiniteScroll(function() {
             Manifesto.fetchMoreSignatories();
           });
@@ -191,12 +193,15 @@ var Manifesto = {
 
   fetchMoreSignatories: function() {
     var page = $('#signatory-table').data('id') + 1;
-    $('#signatory-table').data('id', page);
     Manifesto.fetchSignatories(page);
   },
 
   fetchSignatories: function(page) {
     $.fetchJSON("signatories?page=" + page).done(function(signatories) {
+      if (signatories.length < 1) { return; }
+
+      $('#signatory-table').data('id', page);
+
       var rows = '';
       $.each(signatories, function(index) {
         var order = index % 3;
@@ -209,8 +214,54 @@ var Manifesto = {
     });
   },
 
+  searchSignatories: function(name) {
+    $.fetchJSON("signatories/search?name=" + name).done(function(signatories) {
+      Transitions.infiniteUnscroll()
+      var rows = '';
+      $.each(signatories, function(index) {
+        var signatory = signatories[index];
+        date = new Date(Date.parse(signatory.signed_on))
+        rows = rows + "<tr class='search-result'><td>" + signatory.number  + "</td><td class='signatory-name'>" + signatory.name + " (" + signatory.location + ")</td>" + "<td>" + date.toLocaleDateString() + "</td></tr>";
+      });
+      $('#signatory-table').html(rows);
+    });
+  },
+
+  clearSignatories: function() {
+    $('#signatory-table').data('id', 0);
+    $('#signatory-table').html("");
+    $('#search-name').val("");
+  },
+
+  showAllSignatories: function() {
+    Manifesto.clearSignatories();
+    Manifesto.fetchMoreSignatories();
+    Transitions.infiniteScroll(function() {
+      Manifesto.fetchMoreSignatories();
+    });
+  },
+
+  bindSearchSignatories: function() {
+    $('[data-id="search-submit"]').on('click', function(event) {
+      event.preventDefault();
+      Manifesto.searchSignatories($('[data-id="search-name"]').val());
+    });
+
+    $('[data-id="search-name"]').on('keypress', function(event) {
+      if (event.keyCode == 13) {
+        event.preventDefault();
+        Manifesto.searchSignatories($('[data-id="search-name"]').val());
+      }
+    });
+
+    $('[data-id="search-clear"]').on('click', function(event) {
+      event.preventDefault();
+      Manifesto.showAllSignatories()
+    });
+  },
+
   switchLocale: function() {
-    $('a#en, a#zh-cn, a#tr, a#es, a#de, a#fr-fr, a#ru-ru, a#vi, a#it, a#ua').on('click', function() {
+    $('a#en, a#zh-cn, a#tr, a#es, a#de, a#fr-fr, a#ru-ru, a#vi, a#pt-br, a#it, a#ua').on('click', function() {
       Manifesto.translate($(this).attr('id'));
     });
   },

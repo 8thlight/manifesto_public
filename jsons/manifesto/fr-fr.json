@@ -1,7 +1,7 @@
 {
   "title":"Manifeste pour l'Artisanat Logiciel",
   "raising_the_bar":"Elever le niveau",
-  "introduction":"En tant qu’aspirants Artisans du Logiciel, nous relevons le niveau du dévelopement professionnel de logiciels par la pratique et en aidant les autres à acquérir le savoir-faire. Grâce à ce travail, nous avons appris à apprécier :",
+  "introduction":"En tant qu’aspirants Artisans du Logiciel, nous relevons le niveau du développement professionnel de logiciels par la pratique et en aidant les autres à acquérir le savoir-faire. Grâce à ce travail, nous avons appris à apprécier :",
   "not_only":"Pas seulement ",
   "but_also":"mais aussi ",
   "working_software":"des logiciels opérationnels,",
@@ -19,5 +19,6 @@
   "sign_the_manifesto":"Signer le Manifeste",
   "view_map":"Voir la carte",
   "further_reading":"Lecture complémentaire",
-  "design_by":"Design par"
+  "design_by":"Design par",
+  "metrics": "Metrics"
 }
